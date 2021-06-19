@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+body {font-family:Arial, Helvetica, sans-serif; font-size:15px;}
+.login {width:400px; margin:40px auto 0; border:2px solid #000; padding:10px;}
+ul {list-style:none;}
+
+.wrapper {width:960px; margin:0 auto; background-color:#9C0;}
+
+.sidebar { width:175px; float:left; background:#67B144;; padding:10px;}
+.sidebar a {color:#fff;}
+
+.content {width:740px; float:right; padding:10px;}
+.clear {clear:both;}
+
+.content td, .content th {border:1px dotted #000;}
+
+.sidebar li{line-height:22px;}
+
+.child {background:#0CC;}
+.first {padding-left:10px;}

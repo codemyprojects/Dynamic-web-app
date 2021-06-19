@@ -1,0 +1,23 @@
+﻿/*	--------------------------------------------------
+	:: Global Reset & Standards
+	-------------------------------------------------- */
+	
+	/* 
+		Eric Meyer's CSS Reset
+		http://meyerweb.com/eric/tools/css/reset/ 
+		v2.0 | 20110126
+   		License: none (public domain)
+	*/
+	
+	
+	
+	body  
+	{
+
+		font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+		font-size: 13px; 
+		line-height: 18px; 
+		color: #555; 
+		position: relative; 
+		-webkit-font-smoothing: antialiased; 
+	}

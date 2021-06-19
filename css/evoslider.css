@@ -1,0 +1,176 @@
+﻿/*
+Evo Slider Lite v1.1.0 - jQuery slideshow and content slider plugin
+http://evoslider.com
+
+Copyright 2012, Fikri Rakala
+
+Date: 11 April 2012
+*/ 
+
+/*
+TABLE OF CONTENTS
+
+01 SLIDER
+02 DIRECTION NAVIGATION
+03 CONTROL NAVIGATION ( BULLETS )
+*/
+ 
+ 
+/*  _______________________________________
+
+	01 SLIDER
+    _______________________________________  */
+	
+/* Container / frame surrounding the slider */
+.evoslider
+{
+}
+
+.evoslider .slideWrapper
+{
+	position: relative;
+}
+
+.evoslider dl
+{
+	position :relative ;
+    width : 100%;
+    list-style :none ;
+    overflow: hidden ;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*
+Title bar.
+*/ 
+.evoslider dt
+{
+	position: absolute;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* The hover state of the title bar */ 
+.evoslider dt:hover
+{
+	cursor :pointer ;
+}
+
+/* The active state of the title bar */
+.evoslider dt.active
+{
+	cursor :default;
+}
+
+.evoslider dt .ieFix 
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.evoslider dt .ieFix .box
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: Gray;
+	opacity: 0; 
+	filter: alpha(opacity=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+/* 
+The slide content area
+*/
+.evoslider dd 
+{
+	position: absolute;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+    overflow: hidden;
+}
+
+/*  _______________________________________
+
+	03 DIRECTION NAVIGATION
+    _______________________________________  */
+
+/* The arrow next */
+.evoslider .arrow_next 
+{
+}
+
+/* The hover state of the arrow next */
+.evoslider .arrow_next:hover
+{
+}
+
+/* The arrow prev */
+.evoslider .arrow_prev 
+{
+}
+
+/* The hover state of the arrow prev */
+.evoslider .arrow_prev:hover 
+{
+}
+
+
+/*  _______________________________________
+
+	04 CONTROL NAVIGATION ( BULLETS )
+    _______________________________________  */
+
+/* Control navigation container */
+.evoslider .controlNav 
+{
+	position :absolute ;
+}
+
+.evoslider .control_wrapper 
+{
+	position: relative;
+}
+
+/* Control list */
+.evoslider .controlNav ul 
+{
+	position: relative;
+	list-style: none;
+}
+
+/* The bullets control */
+.evoslider .controlNav li.bullets 
+{
+	position :relative;
+	float: left ;
+	cursor: pointer ;
+}
+
+.evoslider .controlNav li.bullets.last 
+{
+}
+
+/* The hover state of the bullets control */
+.evoslider .controlNav li.bullets:hover
+{
+	cursor: pointer;
+}
+
+/* The active state of the bullets control */
+.evoslider .controlNav li.bullets.active 
+{
+	cursor : default ;
+}
